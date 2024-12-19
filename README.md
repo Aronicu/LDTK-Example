@@ -1,12 +1,6 @@
-# Raylib WASM
-A Template for making Odin, Raylib, and WASM (Emscripten) projects
-
-## Features
-* Works well in Windows (It probably also works for the other desktop platforms but I didn't test it)
-* Logging on WASM Works!
-
-## What won't work
-* Most of Core Libraries (fmt, os, time, etc.)
+# LDTK Example
+An Example of using my Raylib wasm template for loading and rendering LDTK files <br>
+[Play it here](https://aronicu.github.io/ldtk-example)
 
 ## Building
 
@@ -31,10 +25,5 @@ cd build_web
 python -m http.server
 ```
 
-## Examples
-* [Breakout Clone](https://github.com/Aronicu/Breakout) - [Play it here](https://aronicu.github.io/breakout/)
-
 ## References
-* [Caedo's raylib_wasm_odin](https://github.com/Caedo/raylib_wasm_odin)
-* [Karl Zylinski's Odin Raylib Hot Reload Game Template](https://github.com/karl-zylinski/odin-raylib-hot-reload-game-template/)
-* [Building a Web Game in C by Angus Cheng](https://anguscheng.com/post/2023-12-12-wasm-game-in-c-raylib/)
+* [odin-ldtk](https://github.com/jakubtomsu/odin-ldtk/tree/main)
